@@ -20,5 +20,5 @@ Feature: Form-Based Authentication
 
     Examples:
       | username | password             | outcome   |
-      | tomsmith | SuperSecretPassword! | succeeded |
+      | tomsmith | FAILED!              | succeeded |
       | foobar   | barfoo               | failed    |
